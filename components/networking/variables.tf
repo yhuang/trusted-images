@@ -1,3 +1,7 @@
+variable "known_ips" {
+  type = "map"
+}
+
 variable "project_name_base" {}
 
 variable "regions" {

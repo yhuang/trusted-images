@@ -1,0 +1,11 @@
+.idea/
+.idea/*
+.DS_Store
+
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+.terragrunt-cache

@@ -53,7 +53,7 @@ scopes = {
 }
 
 service_accounts = {
-  "terraform-admin"        = "terraform-service-user@terraform-org-admin.iam.gserviceaccount.com"
+  "terraform-admin" = "terraform-service-user@terraform-org-admin.iam.gserviceaccount.com"
 }
 
 states_bucket_base = "terraform-states"

@@ -7,7 +7,7 @@ terraform {
   backend "gcs" {}
 }
 
-data "terraform_remote_state" "project" {
+data "terraform_remote_state" "trusted_images_project" {
   backend = "gcs"
 
   config {

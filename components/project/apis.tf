@@ -1,5 +1,5 @@
 resource "google_project_services" "api_services" {
-  project = "${google_project.trusted_images.project_id}"
+  project = "${local.trusted_images_project_id}"
 
   services = [
     "${var.apis}"

@@ -8,8 +8,9 @@ variable "regions" {
   type = "map"
 }
 
-variable "states_bucket_base" {}
-
 variable "subnetwork_cidr_ranges" {
   type = "map"
 }
+
+# export TF_VAR_trusted_images_states_bucket
+variable "trusted_images_states_bucket" {}

@@ -8,32 +8,11 @@ apis = [
   "oslogin.googleapis.com",
 ]
 
-availability_zones = {
-  "us-west1" = [
-    "us-central1-a",
-    "us-central1-b",
-  ]
-  "us-central1" = [
-    "us-central1-b",
-    "us-central1-f",
-  ]
-  "us-east1" = [
-    "us-central1-c",
-    "us-central1-d",
-  ]
-  "us-east4" = [
-    "us-central1-a",
-    "us-central1-b",
-  ]
-}
-
 byte_length = 4
 
 known_ips = {
   "all" = "0.0.0.0/0"
 }
-
-machine_type = "f1-micro"
 
 network_tier = "STANDARD"
 
@@ -47,16 +26,6 @@ regions = {
   "us-east1"    = "us-east1"
   "us-east4"    = "us-east4"
 }
-
-scopes = {
-  "all-api-access" = "https://www.googleapis.com/auth/cloud-platform"
-}
-
-service_accounts = {
-  "terraform-admin" = "terraform-service-user@terraform-org-admin.iam.gserviceaccount.com"
-}
-
-states_bucket_base = "terraform-states"
 
 subnetwork_cidr_ranges = {
   "us-west1"    = "10.128.0.0/24"

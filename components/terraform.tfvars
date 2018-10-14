@@ -2,10 +2,10 @@ terragrunt = {
   remote_state {
     backend = "gcs"
     config {
-      bucket  = "trusted-images-terraform-states"
+      bucket  = "${get_env("TF_VAR_trusted_images_states_bucket", "`TF_VAR_trusted_images_states_bucket` not set")}"
       prefix  = "components/${path_relative_to_include()}"
-      credentials = "${get_env("GOOGLE_APPLICATION_CREDENTIALS", "default")}"
-      project = "${get_env("TF_VAR_terraform_admin_project_id", "terraform-org-admin")}"
+      credentials = "${get_env("GOOGLE_APPLICATION_CREDENTIALS", "`GOOGLE_APPLICATION_CREDENTIALS` not set")}"
+      project = "${get_env("TF_VAR_terraform_admin_project_id", "`TF_VAR_terraform_admin_project_id` not set")}"
     }
   }
 
@@ -16,6 +16,7 @@ terragrunt = {
       commands = [
         "apply",
         "destroy",
+        "graph",
         "import",
         "init",
         "plan",

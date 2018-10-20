@@ -1,5 +1,4 @@
 locals {
-  network_name      = "${google_compute_network.trusted_images.name}"
   network_self_link = "${google_compute_network.trusted_images.self_link}"
   project_id        = "${data.terraform_remote_state.trusted_images_project.project_id}"
   states_bucket     = "${var.trusted_images_states_bucket}"

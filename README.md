@@ -2,7 +2,7 @@
 
 #### Required Software
 
-- [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstart-linux)
+- [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstarts)
 - [Terraform](https://www.terraform.io/downloads.html)
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt/releases)
 

@@ -3,6 +3,7 @@
 #### Required Software
 
 - [Google Cloud SDK](https://cloud.google.com/sdk/docs/quickstarts)
+- [jq](https://stedolan.github.io/jq/download)
 - [Terraform](https://www.terraform.io/downloads.html)
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt/releases)
 

@@ -1,4 +1,4 @@
-# trusted-images
+# Trusted Images
 
 #### Required Software
 

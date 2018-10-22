@@ -32,9 +32,9 @@
 
   4. Set the following environment variables in the Trusted Images repo's `trusted-images.env` file to fit your Trusted Images project deployment:
   ```
-  GOOGLE_APPLICATION_CREDENTIALS=<Path to the Terraform Admin service account key>
-  TERRAFORM_ADMIN_PROJECT_NAME=<Your Terraform Admin Project Name (Not Its Project ID)>
-  TF_VAR_trusted_images_states_bucket=<Your Trusted Images States Bucket Name>
+  GOOGLE_APPLICATION_CREDENTIALS=<path to the Terraform Admin service account key>
+  TERRAFORM_ADMIN_PROJECT_NAME=<your Terraform Admin project name (not its project ID)>
+  TF_VAR_trusted_images_states_bucket=<your Trusted Images states bucket name>
   ```
 
   5. From the Trusted Images repo's root directory, export the updated environment variables:

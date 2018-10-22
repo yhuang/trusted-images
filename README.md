@@ -30,7 +30,7 @@
   ```
   The output of the `terragrunt show` command will depend on your Terraform Admin project deployment.
 
-  4. Set the following environment variables in the repo's `trusted-images.env` file to fit your Trusted Images project deployment:
+  4. Set the following environment variables in the Trusted Images repo's `trusted-images.env` file to fit your Trusted Images project deployment:
   ```
   GOOGLE_APPLICATION_CREDENTIALS=<Path to the Terraform Admin service account key>
   TERRAFORM_ADMIN_PROJECT_NAME=<Your Terraform Admin Project Name (Not Its Project ID)>

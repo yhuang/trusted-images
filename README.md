@@ -7,7 +7,7 @@
 - [Terraform](https://www.terraform.io/downloads.html)
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt/releases)
 
-#### Project Configuration
+#### Quickstart Guide
 
   1. Deploy your [Terraform Admin project](https://github.com/yhuang/terraform-admin).
 

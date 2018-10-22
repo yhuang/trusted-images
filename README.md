@@ -39,7 +39,7 @@
 
   5. From the Trusted Images repo's root directory, export the updated environment variables:
   ```
-  source trusted-images.env
+  $ source trusted-images.env
   ```
 
   6. At this point, Terragrunt should be able bootstrap the rest of the way to a fully functional Trusted Images environment that may be used to build the Forseti Security image.  From the Trusted Images repo's root directory:

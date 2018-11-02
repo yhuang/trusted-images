@@ -8,8 +8,9 @@ resource "google_compute_firewall" "a_all_to_packer_builder" {
 
   allow {
     protocol = "tcp"
-    ports    = [
-      "22"
+
+    ports = [
+      "22",
     ]
   }
 
@@ -18,7 +19,7 @@ resource "google_compute_firewall" "a_all_to_packer_builder" {
   ]
 
   target_tags = [
-    "packer-builder"
+    "packer-builder",
   ]
 }
 
@@ -39,6 +40,6 @@ resource "google_compute_firewall" "d_all_to_packer_builder" {
   ]
 
   target_tags = [
-    "packer-builder"
+    "packer-builder",
   ]
 }

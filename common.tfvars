@@ -3,11 +3,11 @@ apis = [
   "cloudresourcemanager.googleapis.com",
   "serviceusage.googleapis.com",
 
-  "iam.googleapis.com",
-  "iamcredentials.googleapis.com",
-
   "compute.googleapis.com",
   "oslogin.googleapis.com",
+
+  "iam.googleapis.com",
+  "iamcredentials.googleapis.com",
 ]
 
 byte_length = 4

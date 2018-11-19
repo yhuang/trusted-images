@@ -1,10 +1,3 @@
-resource "google_compute_network" "trusted_images" {
-  name = "${var.project_name_base}"
-
-  auto_create_subnetworks = "false"
-  project                 = "${local.project_id}"
-}
-
 resource "google_compute_subnetwork" "trusted_images_us_west1" {
   name = "${var.project_name_base}-${local.us_west1}"
 
